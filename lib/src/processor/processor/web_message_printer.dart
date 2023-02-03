@@ -13,7 +13,7 @@ void Function(Object? data) _matchPrinter(LogMessage message) {
       warning: (_) => console.warn,
       error: (_) => console.error,
     ),
-    orElse: (_) => info,
+    orElse: () => info,
   );
 }
 

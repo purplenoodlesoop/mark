@@ -1,6 +1,6 @@
 name: mark
 description: Extensible and customizable logging framework for Dart and Flutter.
-version: 0.1.0
+version: 0.2.0
 repository: https://github.com/purplenoodlesoop/mark
 issue_tracker: https://github.com/purplenoodlesoop/mark/issues
 homepage: https://github.com/purplenoodlesoop/mark

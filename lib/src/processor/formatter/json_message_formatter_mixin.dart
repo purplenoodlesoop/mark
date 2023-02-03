@@ -1,5 +1,5 @@
 import 'package:mark/src/message/log_message.dart';
-import 'package:mark/src/processor/message_processor.dart';
+import 'package:mark/src/processor/processor/message_processor.dart';
 
 /// A mixin for [MessageProcessor] that formats messages to JSON using the
 /// [LogMessage.toJson] method on the message.

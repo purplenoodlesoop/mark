@@ -2,7 +2,7 @@ import 'dart:async';
 
 import 'package:mark/src/message/log_message.dart';
 import 'package:mark/src/message/primitive_log_messages.dart';
-import 'package:mark/src/processor/message_processor.dart';
+import 'package:mark/src/processor/processor/message_processor.dart';
 
 /// A collection of [MessageProcessor]s.
 typedef MessageProcessors = Iterable<MessageProcessor>;

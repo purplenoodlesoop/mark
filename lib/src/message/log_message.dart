@@ -27,7 +27,7 @@ abstract class LogMessage {
 
   T matchPrimitive<T>({
     required T Function(PrimitiveLogMessage message) primitive,
-    required T Function(LogMessage message) orElse,
+    required T Function() orElse,
   });
 
   @override
@@ -78,7 +78,7 @@ abstract class BaseLogMessage implements LogMessage {
   @override
   T matchPrimitive<T>({
     required T Function(PrimitiveLogMessage message) primitive,
-    required T Function(LogMessage message) orElse,
+    required T Function() orElse,
   }) =>
-      orElse(this);
+      orElse();
 }
