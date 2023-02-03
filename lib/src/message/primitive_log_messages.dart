@@ -29,7 +29,7 @@ abstract class _BasePrimitiveLogMessage extends BaseLogMessage
   @override
   T matchPrimitive<T>({
     required T Function(PrimitiveLogMessage message) primitive,
-    required T Function(LogMessage message) orElse,
+    required T Function() orElse,
   }) =>
       primitive(this);
 }
